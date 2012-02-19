@@ -1,0 +1,20 @@
+C:\cocos2d-x\NyanBreak\android\bin\NyanBreak.ap_ \
+ : C:\cocos2d-x\NyanBreak\android\res\drawable-hdpi\icon.png \
+C:\cocos2d-x\NyanBreak\android\res\drawable-ldpi\icon.png \
+C:\cocos2d-x\NyanBreak\android\res\drawable-mdpi\icon.png \
+C:\cocos2d-x\NyanBreak\android\res\layout\game_demo.xml \
+C:\cocos2d-x\NyanBreak\android\res\values\strings.xml \
+C:\cocos2d-x\NyanBreak\android\bin\res\drawable-hdpi\icon.png \
+C:\cocos2d-x\NyanBreak\android\bin\res\drawable-ldpi\icon.png \
+C:\cocos2d-x\NyanBreak\android\bin\res\drawable-mdpi\icon.png \
+C:\cocos2d-x\NyanBreak\android\assets\app.config.txt \
+C:\cocos2d-x\NyanBreak\android\assets\app.icf \
+C:\cocos2d-x\NyanBreak\android\assets\CloseNormal.png \
+C:\cocos2d-x\NyanBreak\android\assets\CloseSelected.png \
+C:\cocos2d-x\NyanBreak\android\assets\HelloWorld.png \
+C:\cocos2d-x\NyanBreak\android\assets\Icon.png \
+C:\cocos2d-x\NyanBreak\android\assets\mrnyan.png \
+C:\cocos2d-x\NyanBreak\android\assets\red_brick.png \
+C:\cocos2d-x\NyanBreak\android\assets\rock.png \
+C:\cocos2d-x\NyanBreak\android\assets\star.png \
+C:\cocos2d-x\NyanBreak\android\AndroidManifest.xml \
