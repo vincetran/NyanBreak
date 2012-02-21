@@ -1,15 +1,15 @@
 /cygdrive/c/cocos2d-x/NyanBreak/android/obj/local/armeabi/objs-debug/cocos2d/particle_nodes/CCParticleSystemPoint.o: \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/particle_nodes/CCParticleSystemPoint.cpp \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/include/CCParticleSystemPoint.h \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/include/CCParticleSystem.h \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/include/CCProtocols.h \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/include/ccTypes.h \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/include/CCGeometry.h \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/platform/CCCommon.h \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/platform/CCPlatformMacros.h \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/include/ccConfig.h \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/platform/CCPlatformConfig.h \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/platform/CCPlatformConfig.h \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/particle_nodes/CCParticleSystemPoint.cpp \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/include/CCParticleSystemPoint.h \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/include/CCParticleSystem.h \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/include/CCProtocols.h \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/include/ccTypes.h \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/include/CCGeometry.h \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/platform/CCCommon.h \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/platform/CCPlatformMacros.h \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/include/ccConfig.h \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/platform/CCPlatformConfig.h \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/platform/CCPlatformConfig.h \
  /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/assert.h \
  /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stl/_cprolog.h \
  /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stl/config/features.h \
@@ -27,23 +27,23 @@
  /cygdrive/c/android/android-ndk-r6/platforms/android-8/arch-arm/usr/include/sys/cdefs_elf.h \
  /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stl/_epilog.h \
  /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stl/_config_compat_post.h \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/include/CCGL.h \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/platform/CCGL.h \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/include/CCEGLView.h \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/include/../platform/CCEGLView_platform.h \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/include/../platform/CCPlatformConfig.h \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/include/../platform/android/CCEGLView_android.h \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/include/CCGeometry.h \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/platform/CCCommon.h \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/include/CCGL.h \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/platform/CCGL.h \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/include/CCEGLView.h \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/include/../platform/CCEGLView_platform.h \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/include/../platform/CCPlatformConfig.h \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/include/../platform/android/CCEGLView_android.h \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/include/CCGeometry.h \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/platform/CCCommon.h \
+ /cygdrive/c/android/android-ndk-r6/platforms/android-8/arch-arm/usr/include/GLES/gl.h \
  /cygdrive/c/android/android-ndk-r6/platforms/android-8/arch-arm/usr/include/GLES/glplatform.h \
  /cygdrive/c/android/android-ndk-r6/platforms/android-8/arch-arm/usr/include/KHR/khrplatform.h \
  /cygdrive/c/android/android-ndk-r6/platforms/android-8/arch-arm/usr/include/stdint.h \
  /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stddef.h \
  /cygdrive/c/android/android-ndk-r6/platforms/android-8/arch-arm/usr/include/sys/_types.h \
  /cygdrive/c/android/android-ndk-r6/platforms/android-8/arch-arm/usr/include/machine/_types.h \
- /cygdrive/c/android/android-ndk-r6/platforms/android-8/arch-arm/usr/include/GLES/gl.h \
  /cygdrive/c/android/android-ndk-r6/platforms/android-8/arch-arm/usr/include/GLES/glext.h \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/include/CCTexture2D.h \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/include/CCTexture2D.h \
  /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/string \
  /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stl/_prolog.h \
  /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stl/debug/_debug.h \
@@ -163,50 +163,52 @@
  /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stl/_num_get.h \
  /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stl/_num_get.c \
  /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stl/_string_io.c \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/include/CCObject.h \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/include/CCNode.h \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/include/ccMacros.h \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/platform/CCStdC.h \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/include/ccConfig.h \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/include/CCAffineTransform.h \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/platform/CCPlatformMacros.h \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/include/CCArray.h \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/support/data_support/ccCArray.h \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/include/ccMacros.h \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/include/CCObject.h \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/include/selector_protocol.h \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/include/CCMutableDictionary.h \
- /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/map \
- /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stl/_map.h \
- /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stl/_tree.h \
- /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stl/_tree.c \
- /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stl/_relops_cont.h \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/include/CCObject.h \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/include/CCNode.h \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/include/ccMacros.h \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/platform/CCStdC.h \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/include/ccConfig.h \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/include/CCDirector.h \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/platform/CCPlatformMacros.h \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/include/CCMutableArray.h \
  /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/vector \
  /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stl/_vector.h \
  /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stl/_vector.c \
  /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stl/_bvector.h \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/include/CCMutableArray.h \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/include/CCString.h
+ /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stl/_relops_cont.h \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/include/CCEGLView.h \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/include/CCAffineTransform.h \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/include/CCArray.h \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/support/data_support/ccCArray.h \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/include/CCObject.h \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/include/ccMacros.h \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/include/selector_protocol.h \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/include/CCMutableDictionary.h \
+ /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/map \
+ /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stl/_map.h \
+ /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stl/_tree.h \
+ /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stl/_tree.c \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/include/CCString.h
 
-/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/include/CCParticleSystemPoint.h:
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/include/CCParticleSystemPoint.h:
 
-/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/include/CCParticleSystem.h:
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/include/CCParticleSystem.h:
 
-/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/include/CCProtocols.h:
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/include/CCProtocols.h:
 
-/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/include/ccTypes.h:
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/include/ccTypes.h:
 
-/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/include/CCGeometry.h:
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/include/CCGeometry.h:
 
-/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/platform/CCCommon.h:
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/platform/CCCommon.h:
 
-/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/platform/CCPlatformMacros.h:
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/platform/CCPlatformMacros.h:
 
-/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/include/ccConfig.h:
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/include/ccConfig.h:
 
-/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/platform/CCPlatformConfig.h:
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/platform/CCPlatformConfig.h:
 
-/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/platform/CCPlatformConfig.h:
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/platform/CCPlatformConfig.h:
 
 /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/assert.h:
 
@@ -242,21 +244,23 @@
 
 /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stl/_config_compat_post.h:
 
-/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/include/CCGL.h:
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/include/CCGL.h:
 
-/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/platform/CCGL.h:
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/platform/CCGL.h:
 
-/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/include/CCEGLView.h:
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/include/CCEGLView.h:
 
-/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/include/../platform/CCEGLView_platform.h:
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/include/../platform/CCEGLView_platform.h:
 
-/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/include/../platform/CCPlatformConfig.h:
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/include/../platform/CCPlatformConfig.h:
 
-/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/include/../platform/android/CCEGLView_android.h:
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/include/../platform/android/CCEGLView_android.h:
 
-/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/include/CCGeometry.h:
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/include/CCGeometry.h:
 
-/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/platform/CCCommon.h:
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/platform/CCCommon.h:
+
+/cygdrive/c/android/android-ndk-r6/platforms/android-8/arch-arm/usr/include/GLES/gl.h:
 
 /cygdrive/c/android/android-ndk-r6/platforms/android-8/arch-arm/usr/include/GLES/glplatform.h:
 
@@ -270,11 +274,9 @@
 
 /cygdrive/c/android/android-ndk-r6/platforms/android-8/arch-arm/usr/include/machine/_types.h:
 
-/cygdrive/c/android/android-ndk-r6/platforms/android-8/arch-arm/usr/include/GLES/gl.h:
-
 /cygdrive/c/android/android-ndk-r6/platforms/android-8/arch-arm/usr/include/GLES/glext.h:
 
-/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/include/CCTexture2D.h:
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/include/CCTexture2D.h:
 
 /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/string:
 
@@ -514,41 +516,21 @@
 
 /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stl/_string_io.c:
 
-/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/include/CCObject.h:
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/include/CCObject.h:
 
-/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/include/CCNode.h:
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/include/CCNode.h:
 
-/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/include/ccMacros.h:
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/include/ccMacros.h:
 
-/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/platform/CCStdC.h:
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/platform/CCStdC.h:
 
-/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/include/ccConfig.h:
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/include/ccConfig.h:
 
-/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/include/CCAffineTransform.h:
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/include/CCDirector.h:
 
-/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/platform/CCPlatformMacros.h:
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/platform/CCPlatformMacros.h:
 
-/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/include/CCArray.h:
-
-/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/support/data_support/ccCArray.h:
-
-/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/include/ccMacros.h:
-
-/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/include/CCObject.h:
-
-/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/include/selector_protocol.h:
-
-/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/include/CCMutableDictionary.h:
-
-/cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/map:
-
-/cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stl/_map.h:
-
-/cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stl/_tree.h:
-
-/cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stl/_tree.c:
-
-/cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stl/_relops_cont.h:
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/include/CCMutableArray.h:
 
 /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/vector:
 
@@ -558,6 +540,30 @@
 
 /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stl/_bvector.h:
 
-/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/include/CCMutableArray.h:
+/cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stl/_relops_cont.h:
 
-/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/include/CCString.h:
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/include/CCEGLView.h:
+
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/include/CCAffineTransform.h:
+
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/include/CCArray.h:
+
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/support/data_support/ccCArray.h:
+
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/include/CCObject.h:
+
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/include/ccMacros.h:
+
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/include/selector_protocol.h:
+
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/include/CCMutableDictionary.h:
+
+/cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/map:
+
+/cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stl/_map.h:
+
+/cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stl/_tree.h:
+
+/cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stl/_tree.c:
+
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/include/CCString.h:

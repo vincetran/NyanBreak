@@ -1,5 +1,5 @@
 /cygdrive/c/cocos2d-x/NyanBreak/android/obj/local/armeabi/objs-debug/cocos2d/support/zip_support/unzip.o: \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/support/zip_support/unzip.cpp \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/support/zip_support/unzip.cpp \
  /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stdio.h \
  /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stl/_cprolog.h \
  /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stl/config/features.h \
@@ -41,9 +41,9 @@
  /cygdrive/c/android/android-ndk-r6/platforms/android-8/arch-arm/usr/include/memory.h \
  /cygdrive/c/android/android-ndk-r6/platforms/android-8/arch-arm/usr/include/zlib.h \
  /cygdrive/c/android/android-ndk-r6/platforms/android-8/arch-arm/usr/include/zconf.h \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/support/zip_support/unzip.h \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/support/zip_support/ioapi.h \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/platform/CCPlatformConfig.h \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/support/zip_support/unzip.h \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/support/zip_support/ioapi.h \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/platform/CCPlatformConfig.h \
  /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/errno.h \
  /cygdrive/c/android/android-ndk-r6/platforms/android-8/arch-arm/usr/include/../include/errno.h \
  /cygdrive/c/android/android-ndk-r6/platforms/android-8/arch-arm/usr/include/linux/errno.h \
@@ -133,11 +133,11 @@
 
 /cygdrive/c/android/android-ndk-r6/platforms/android-8/arch-arm/usr/include/zconf.h:
 
-/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/support/zip_support/unzip.h:
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/support/zip_support/unzip.h:
 
-/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/support/zip_support/ioapi.h:
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/support/zip_support/ioapi.h:
 
-/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/platform/CCPlatformConfig.h:
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/platform/CCPlatformConfig.h:
 
 /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/errno.h:
 

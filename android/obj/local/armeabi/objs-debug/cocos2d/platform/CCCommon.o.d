@@ -1,10 +1,10 @@
 /cygdrive/c/cocos2d-x/NyanBreak/android/obj/local/armeabi/objs-debug/cocos2d/platform/CCCommon.o: \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/platform/CCCommon.cpp \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/platform/CCCommon.h \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/platform/CCPlatformMacros.h \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/include/ccConfig.h \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/platform/CCPlatformConfig.h \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/platform/CCPlatformConfig.h \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/platform/CCCommon.cpp \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/platform/CCCommon.h \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/platform/CCPlatformMacros.h \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/include/ccConfig.h \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/platform/CCPlatformConfig.h \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/platform/CCPlatformConfig.h \
  /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/assert.h \
  /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stl/_cprolog.h \
  /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stl/config/features.h \
@@ -40,17 +40,17 @@
  /cygdrive/c/android/android-ndk-r6/platforms/android-8/arch-arm/usr/include/machine/kernel.h \
  /cygdrive/c/android/android-ndk-r6/platforms/android-8/arch-arm/usr/include/sys/sysmacros.h \
  /cygdrive/c/android/android-ndk-r6/platforms/android-8/arch-arm/usr/include/jni.h \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/platform/android/jni/MessageJni.h
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/platform/android/jni/MessageJni.h
 
-/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/platform/CCCommon.h:
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/platform/CCCommon.h:
 
-/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/platform/CCPlatformMacros.h:
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/platform/CCPlatformMacros.h:
 
-/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/include/ccConfig.h:
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/include/ccConfig.h:
 
-/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/platform/CCPlatformConfig.h:
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/platform/CCPlatformConfig.h:
 
-/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/platform/CCPlatformConfig.h:
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/platform/CCPlatformConfig.h:
 
 /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/assert.h:
 
@@ -122,4 +122,4 @@
 
 /cygdrive/c/android/android-ndk-r6/platforms/android-8/arch-arm/usr/include/jni.h:
 
-/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/platform/android/jni/MessageJni.h:
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/platform/android/jni/MessageJni.h:

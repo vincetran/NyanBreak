@@ -1,6 +1,6 @@
 /cygdrive/c/cocos2d-x/NyanBreak/android/obj/local/armeabi/objs-debug/cocosdenshion/jni/SimpleAudioEngineJni.o: \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../CocosDenshion/android/jni/SimpleAudioEngineJni.cpp \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../CocosDenshion/android/jni/SimpleAudioEngineJni.h \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/CocosDenshion/android/jni/SimpleAudioEngineJni.cpp \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/CocosDenshion/android/jni/SimpleAudioEngineJni.h \
  /cygdrive/c/android/android-ndk-r6/platforms/android-8/arch-arm/usr/include/jni.h \
  /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stdarg.h \
  /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stl/_cprolog.h \
@@ -18,7 +18,7 @@
  /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stl/_config_compat_post.h \
  /cygdrive/c/android/android-ndk-r6/platforms/android-8/arch-arm/usr/include/android/log.h
 
-/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../CocosDenshion/android/jni/SimpleAudioEngineJni.h:
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/CocosDenshion/android/jni/SimpleAudioEngineJni.h:
 
 /cygdrive/c/android/android-ndk-r6/platforms/android-8/arch-arm/usr/include/jni.h:
 

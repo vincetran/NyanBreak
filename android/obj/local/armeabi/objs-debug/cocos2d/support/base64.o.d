@@ -1,6 +1,7 @@
 /cygdrive/c/cocos2d-x/NyanBreak/android/obj/local/armeabi/objs-debug/cocos2d/support/base64.o: \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/support/base64.cpp \
- /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stdio.h \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/support/base64.cpp \
+ /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/cstdio \
+ /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stl/_prolog.h \
  /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stl/_cprolog.h \
  /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stl/config/features.h \
  /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stl/_stlport_version.h \
@@ -12,6 +13,9 @@
  /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stl/config/_gcc.h \
  /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stl/config/stl_confix.h \
  /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stl/config/_native_headers.h \
+ /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stl/debug/_debug.h \
+ /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stl/_cstdio.h \
+ /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stdio.h \
  /cygdrive/c/android/android-ndk-r6/platforms/android-8/arch-arm/usr/include/../include/stdio.h \
  /cygdrive/c/android/android-ndk-r6/platforms/android-8/arch-arm/usr/include/sys/cdefs.h \
  /cygdrive/c/android/android-ndk-r6/platforms/android-8/arch-arm/usr/include/sys/cdefs_elf.h \
@@ -39,9 +43,11 @@
  /cygdrive/c/android/android-ndk-r6/platforms/android-8/arch-arm/usr/include/alloca.h \
  /cygdrive/c/android/android-ndk-r6/platforms/android-8/arch-arm/usr/include/strings.h \
  /cygdrive/c/android/android-ndk-r6/platforms/android-8/arch-arm/usr/include/memory.h \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/support/base64.h
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/support/base64.h
 
-/cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stdio.h:
+/cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/cstdio:
+
+/cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stl/_prolog.h:
 
 /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stl/_cprolog.h:
 
@@ -64,6 +70,12 @@
 /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stl/config/stl_confix.h:
 
 /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stl/config/_native_headers.h:
+
+/cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stl/debug/_debug.h:
+
+/cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stl/_cstdio.h:
+
+/cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stdio.h:
 
 /cygdrive/c/android/android-ndk-r6/platforms/android-8/arch-arm/usr/include/../include/stdio.h:
 
@@ -119,4 +131,4 @@
 
 /cygdrive/c/android/android-ndk-r6/platforms/android-8/arch-arm/usr/include/memory.h:
 
-/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../../cocos2dx/support/base64.h:
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/../../libs/cocos2dx/support/base64.h:
