@@ -5,25 +5,52 @@ using namespace CocosDenshion;
 
 #define PTM_RATIO 32
 
-HelloWorld::~HelloWorld()
+// HelloWorld::~HelloWorld()
+// {
+//     CC_SAFE_DELETE(_world);
+    
+//     delete _contactListener;
+//     CCLayerColor::initWithColor(ccc4(0,51,102,255));
+//     this->schedule(schedule_selector(HelloWorld::gameLogic), 0.5);
+// }
+
+void HelloWorld::gameLogic(ccTime dt)
 {
-    CC_SAFE_DELETE(_world);
-    _groundBody = NULL;
-    delete _contactListener;
+    this->addStar();
 }
 
-bool HelloWorld::init() {
-    if ( !CCLayerColor::initWithColor(ccc4(0,51,102,255)))
-    {
-        return false;
-    }
-    return true;
+void HelloWorld::addStar()
+{
+    CCSprite *star = CCSprite::spriteWithFile("star.png", CCRectMake(0,0,40,40));
+    CCSize winSize = CCDirector::sharedDirector()->getWinSize();
+    int minY = star->getContentSize().height/2;
+    int maxY = winSize.height - star-> getContentSize().height/2;
+    int rangeY = maxY - minY;
+    int actualY = (rand() % rangeY) + minY;
+    star->setPosition(ccp(winSize.width + (star->getContentSize().width/2), actualY));
+    this->addChild(star);
+
+    int minDuration = (int)2.0;
+    int maxDuration = (int)4.0;
+    int rangeDuration = maxDuration - minDuration;
+    int actualDuration = (rand() % rangeDuration) + minDuration;
+
+    CCFiniteTimeAction* actionMove = CCMoveTo::actionWithDuration((ccTime)actualDuration, ccp(0-star->getContentSize().width/2, actualY));
+    CCFiniteTimeAction* actionMoveDone = CCCallFuncN::actionWithTarget(this, callfuncN_selector(HelloWorld::spriteMoveFinished));
+    star->runAction(CCSequence::actions(actionMove,actionMoveDone, NULL));
+}
+
+void HelloWorld::spriteMoveFinished(CCNode* sender)
+{
+    CCSprite *sprite = (CCSprite *)sender;
+    this->removeChild(sprite, true);
 }
 
 HelloWorld::HelloWorld()
 {
     setIsTouchEnabled( true );
 	CCSize winSize = CCDirector::sharedDirector()->getWinSize();
+    CCLayerColor::initWithColor(ccc4(0,51,102,255));
     
 	b2Vec2 gravity;
 	gravity.Set(0.0f, 0.0f);
@@ -95,9 +122,9 @@ HelloWorld::HelloWorld()
     // Create shape definition and add to body
     b2FixtureDef paddleShapeDef;
     paddleShapeDef.shape = &paddleShape;
-    paddleShapeDef.density = 10.0f;
-    paddleShapeDef.friction = 0.4f;
-    paddleShapeDef.restitution = 0.1f;
+    paddleShapeDef.density = 20.0f;
+    paddleShapeDef.friction = 0.5f;
+    paddleShapeDef.restitution = 0.f;
     _paddleFixture = _paddleBody->CreateFixture(&paddleShapeDef);
     
     // Restrict paddle along the x axis
@@ -166,6 +193,7 @@ HelloWorld::HelloWorld()
     SimpleAudioEngine::sharedEngine()->playBackgroundMusic("background-music-aac.caf");
     
     this->schedule(schedule_selector(HelloWorld::tick));
+    this->schedule(schedule_selector(HelloWorld::gameLogic), 0.5);
 }
 
 void HelloWorld::draw()
@@ -200,15 +228,21 @@ void HelloWorld::tick(ccTime dt)
 			myActor->setRotation( -1 * CC_RADIANS_TO_DEGREES(b->GetAngle()) );
             
             if (myActor->getTag() == 1) {
-                static int maxSpeed = 10;
+                static int maxSpeed = 20;
+                static int minSpeed = 10;
                 
                 b2Vec2 velocity = b->GetLinearVelocity();
                 float32 speed = velocity.Length();
                 
                 if (speed > maxSpeed) {
-                    b->SetLinearDamping(0.5);
+                    b->SetLinearDamping(0.2);
                 } else if (speed < maxSpeed) {
                     b->SetLinearDamping(0.0);
+                }
+                else if(speed < minSpeed)
+                {
+                    b2Vec2 newVel; newVel.Set(1.5*velocity.x, 1.5*velocity.y);
+                    b->SetLinearVelocity(newVel);
                 }
                 
             }

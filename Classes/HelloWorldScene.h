@@ -12,12 +12,13 @@
 
 class HelloWorld : public cocos2d::CCLayerColor {
 public:
-    ~HelloWorld();
+    //~HelloWorld();
     HelloWorld();
     // returns a Scene that contains the HelloWorld as the only child
     static cocos2d::CCScene* scene();
-    virtual bool init();  
-
+    void addStar();
+    void gameLogic(cocos2d::ccTime dt);
+    void spriteMoveFinished(CCNode* sender);
     virtual void draw();
     virtual void ccTouchesBegan(cocos2d::CCSet* touches, cocos2d::CCEvent* event);
     virtual void ccTouchesMoved(cocos2d::CCSet* touches, cocos2d::CCEvent* event);
