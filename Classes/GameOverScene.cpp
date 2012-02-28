@@ -1,12 +1,3 @@
-/*
- *  GameOverScene.cpp
- *  SimpleGame
- *
- *  Created by Clawoo on 8/10/11.
- *  Copyright 2011 __MyCompanyName__. All rights reserved.
- *
- */
-
 #include "GameOverScene.h"
 #include "HelloWorldScene.h"
 
@@ -14,15 +5,15 @@ USING_NS_CC;
 
 bool GameOverLayer::init()
 {
-	if (!CCLayerColor::initWithColor(ccc4(255, 255, 255, 255)))
+	if (!CCLayerColor::initWithColor(ccc4(0,51,102,255)))
 	{
 		return false;
 	}
 	
 	CCSize winSize = CCDirector::sharedDirector()->getWinSize();
-	this->_label = CCLabelTTF::labelWithString("", "Arial", 12);
+	this->_label = CCLabelTTF::labelWithString("", "Arial", 30);
 	this->_label->retain();
-	this->getLabel()->setColor(ccc3(0,0,0));
+	this->getLabel()->setColor(ccc3(255,255,255));
 	this->getLabel()->setPosition(ccp(winSize.width/2, winSize.height/2));
 	this->addChild(_label);
 	

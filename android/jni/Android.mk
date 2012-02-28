@@ -1,5 +1,6 @@
 LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
+LOCAL_CFLAGS += -DCOCOS2D_DEBUG=1
 
 subdirs := $(addprefix $(LOCAL_PATH)/../../libs/,$(addsuffix /Android.mk, \
            cocos2dx \

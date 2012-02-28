@@ -2,17 +2,21 @@
 
 using namespace cocos2d;
 using namespace CocosDenshion;
+USING_NS_CC;
 
 #define PTM_RATIO 32
 
-// HelloWorld::~HelloWorld()
-// {
-//     CC_SAFE_DELETE(_world);
-    
-//     delete _contactListener;
-//     CCLayerColor::initWithColor(ccc4(0,51,102,255));
-//     this->schedule(schedule_selector(HelloWorld::gameLogic), 0.5);
-// }
+bool HelloWorld::init()
+{
+    CCLog("HERPIERO");
+    do
+    {
+        CCLog("In INITTIENITNITNT");
+        CC_BREAK_IF(! CCLayerColor::initWithColor(ccc4(0,51,102,255)));
+    }while(0);
+
+    return true;
+}
 
 void HelloWorld::gameLogic(ccTime dt)
 {
@@ -28,7 +32,7 @@ void HelloWorld::addStar()
     int rangeY = maxY - minY;
     int actualY = (rand() % rangeY) + minY;
     star->setPosition(ccp(winSize.width + (star->getContentSize().width/2), actualY));
-    this->addChild(star);
+    this->addChild(star, 0);
 
     int minDuration = (int)2.0;
     int maxDuration = (int)4.0;
@@ -50,8 +54,8 @@ HelloWorld::HelloWorld()
 {
     setIsTouchEnabled( true );
 	CCSize winSize = CCDirector::sharedDirector()->getWinSize();
-    CCLayerColor::initWithColor(ccc4(0,51,102,255));
-    
+    CCLayerColor::initWithColor(ccc4(0,51,102,255));   
+
 	b2Vec2 gravity;
 	gravity.Set(0.0f, 0.0f);
 	
@@ -105,7 +109,7 @@ HelloWorld::HelloWorld()
     
     CCSprite *paddle = CCSprite::spriteWithFile("paddle.png");
     paddle->setPosition(ccp(winSize.width/2, 50));
-    this->addChild(paddle);
+    this->addChild(paddle, 1);
     
     // Create paddle body
     b2BodyDef paddleBodyDef;
@@ -162,11 +166,11 @@ HelloWorld::HelloWorld()
             counter++;
             int xOffset = padding+block->getContentSize().width/2+
             ((block->getContentSize().width+padding)*i);
-            int yOffset = 400-padding+block->getContentSize().height/2+
+            int yOffset = 370-padding+block->getContentSize().height/2+
             ((block->getContentSize().height+padding)*j);
             block->setPosition(ccp(xOffset, yOffset));
             block->setTag(2);
-            this->addChild(block);
+            this->addChild(block, 1);
             
             // Create block body
             b2BodyDef blockBodyDef;
@@ -190,7 +194,7 @@ HelloWorld::HelloWorld()
         } 
     }
     
-    SimpleAudioEngine::sharedEngine()->playBackgroundMusic("background-music-aac.caf");
+    SimpleAudioEngine::sharedEngine()->playBackgroundMusic("nyan.mp3", true);
     
     this->schedule(schedule_selector(HelloWorld::tick));
     this->schedule(schedule_selector(HelloWorld::gameLogic), 0.5);
@@ -239,12 +243,12 @@ void HelloWorld::tick(ccTime dt)
                 } else if (speed < maxSpeed) {
                     b->SetLinearDamping(0.0);
                 }
-                else if(speed < minSpeed)
+                if(speed < minSpeed)
                 {
-                    b2Vec2 newVel; newVel.Set(1.5*velocity.x, 1.5*velocity.y);
+                    b2Vec2 newVel;
+                    newVel.Set(1.2*velocity.x, 1.2*velocity.y);
                     b->SetLinearVelocity(newVel);
                 }
-                
             }
             
             if (myActor->getTag() == 2) {
@@ -301,14 +305,14 @@ void HelloWorld::tick(ccTime dt)
     
     if (!blockFound)
     {
-        //GameOverScene *gameOverScene = GameOverScene::node();
-        //gameOverScene->getLayer()->getLabel()->setString("You Win!");
-        //CCDirector::sharedDirector()->replaceScene(gameOverScene);
+        GameOverScene *gameOverScene = GameOverScene::node();
+        gameOverScene->getLayer()->getLabel()->setString("You Win!");
+        CCDirector::sharedDirector()->replaceScene(gameOverScene);
     }
     
     if (toDestroy.size() > 0)
     {
-        //SimpleAudioEngine::sharedEngine()->playEffect("blip.caf");
+        SimpleAudioEngine::sharedEngine()->playEffect("break.mp3");
     }
 }
 
@@ -321,17 +325,15 @@ void HelloWorld::ccTouchesBegan(cocos2d::CCSet* touches, cocos2d::CCEvent* event
     location = CCDirector::sharedDirector()->convertToGL(location);
     b2Vec2 locationWorld = b2Vec2(location.x/PTM_RATIO, location.y/PTM_RATIO);
     
-   // if (_paddleFixture->TestPoint(locationWorld)) {
-        b2MouseJointDef md;
-        md.bodyA = _groundBody;
-        md.bodyB = _paddleBody;
-        md.target = locationWorld;
-        md.collideConnected = true;
-        md.maxForce = 1000.0f * _paddleBody->GetMass();
-        
-        _mouseJoint = (b2MouseJoint *)_world->CreateJoint(&md);
-        _paddleBody->SetAwake(true);
-    //}
+    b2MouseJointDef md;
+    md.bodyA = _groundBody;
+    md.bodyB = _paddleBody;
+    md.target = locationWorld;
+    md.collideConnected = true;
+    md.maxForce = 1000.0f * _paddleBody->GetMass();
+    
+    _mouseJoint = (b2MouseJoint *)_world->CreateJoint(&md);
+    _paddleBody->SetAwake(true);
 }
 
 void HelloWorld::ccTouchesMoved(CCSet* touches, CCEvent* event)
@@ -368,8 +370,7 @@ CCScene* HelloWorld::scene()
 {
     // 'scene' is an autorelease object
     CCScene *scene = CCScene::node();
-    
-    // add layer as a child to scene
+
     CCLayer* layer = new HelloWorld();
     scene->addChild(layer);
     layer->release();

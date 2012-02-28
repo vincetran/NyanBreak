@@ -10,11 +10,13 @@ C:\cocos2d-x\NyanBreak\android\bin\res\drawable-mdpi\icon.png \
 C:\cocos2d-x\NyanBreak\android\assets\app.config.txt \
 C:\cocos2d-x\NyanBreak\android\assets\app.icf \
 C:\cocos2d-x\NyanBreak\android\assets\blue_brick.png \
+C:\cocos2d-x\NyanBreak\android\assets\break.mp3 \
 C:\cocos2d-x\NyanBreak\android\assets\CloseNormal.png \
 C:\cocos2d-x\NyanBreak\android\assets\CloseSelected.png \
 C:\cocos2d-x\NyanBreak\android\assets\green_brick.png \
 C:\cocos2d-x\NyanBreak\android\assets\HelloWorld.png \
 C:\cocos2d-x\NyanBreak\android\assets\Icon.png \
+C:\cocos2d-x\NyanBreak\android\assets\nyan.mp3 \
 C:\cocos2d-x\NyanBreak\android\assets\orange_brick.png \
 C:\cocos2d-x\NyanBreak\android\assets\paddle.png \
 C:\cocos2d-x\NyanBreak\android\assets\purple_brick.png \
