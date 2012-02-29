@@ -1,5 +1,6 @@
 #include "HelloWorldScene.h"
 
+
 using namespace cocos2d;
 using namespace CocosDenshion;
 USING_NS_CC;
@@ -8,10 +9,8 @@ USING_NS_CC;
 
 bool HelloWorld::init()
 {
-    CCLog("HERPIERO");
     do
     {
-        CCLog("In INITTIENITNITNT");
         CC_BREAK_IF(! CCLayerColor::initWithColor(ccc4(0,51,102,255)));
     }while(0);
 
@@ -193,6 +192,12 @@ HelloWorld::HelloWorld()
             blockBody->CreateFixture(&blockShapeDef);
         } 
     }
+
+    this->_label = CCLabelTTF::labelWithString("00000", "Arial", 30);
+    this->_label->retain();
+    this->getLabel()->setColor(ccc3(255,255,255));
+    this->getLabel()->setPosition(ccp(50, winSize.height-20));
+    this->addChild(_label);
     
     SimpleAudioEngine::sharedEngine()->playBackgroundMusic("nyan.mp3", true);
     
@@ -313,6 +318,10 @@ void HelloWorld::tick(ccTime dt)
     if (toDestroy.size() > 0)
     {
         SimpleAudioEngine::sharedEngine()->playEffect("break.mp3");
+        int value = atoi(this->getLabel()->getString()); 
+        char score[10];
+        sprintf(score, "%d", value+100);
+        this->getLabel()->setString(score);
     }
 }
 

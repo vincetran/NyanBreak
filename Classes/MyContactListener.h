@@ -1,10 +1,3 @@
-//
-//  MyContactListener.h
-//  BreakoutCocos2D-x
-//
-//  Created by Clawoo on 9/16/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
-//
 #ifndef __MY_CONTACT_LISTENER_H__
 #define __MY_CONTACT_LISTENER_H__
 

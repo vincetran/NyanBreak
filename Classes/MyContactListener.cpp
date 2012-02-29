@@ -1,11 +1,3 @@
-//
-//  MyContactListener.cpp
-//  BreakoutCocos2D-x
-//
-//  Created by Clawoo on 9/16/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
-//
-
 #include "MyContactListener.h"
 
 MyContactListener::MyContactListener() : _contacts() 

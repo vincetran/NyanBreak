@@ -13,6 +13,7 @@
 class HelloWorld : public cocos2d::CCLayerColor {
 public:
     bool init();  
+    CC_SYNTHESIZE_READONLY(cocos2d::CCLabelTTF*, _label, Label);
     //~HelloWorld();
     HelloWorld();
     static cocos2d::CCScene* scene();
@@ -36,6 +37,8 @@ private:
     b2Body *_paddleBody;
     b2Fixture *_paddleFixture;
     b2MouseJoint *_mouseJoint;
+
+
     
     MyContactListener *_contactListener;
 };
