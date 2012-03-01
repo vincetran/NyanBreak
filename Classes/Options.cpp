@@ -38,7 +38,7 @@ bool Options::init()
     CCMenuItem *musicOn = CCMenuItemFont::itemFromString("Music: On");
     CCMenuItem *musicOff = CCMenuItemFont::itemFromString("Music: Off");
 
-    CCMenuItemToggle *musicToggle  = CCMenuItemToggle::itemWithTarget(this, menu_selector(Options::musicToggleAction),musicOn,musicOff,NULL);
+    CCMenuItemToggle *musicToggle  = CCMenuItemToggle::itemWithTarget(this, menu_selector(Options::musicToggleAction),musicOff,musicOn,NULL);
 
     CCMenu *musicMenu = CCMenu::menuWithItems(musicToggle, NULL);
     
@@ -69,10 +69,10 @@ void Options::musicToggleAction(CCObject* pSender)
 	int i=(L->getSelectedIndex());
 	if(i == 0)
 	{
-		SimpleAudioEngine::sharedEngine()->playBackgroundMusic("nyan.mp3", true);
+		SimpleAudioEngine::sharedEngine()->stopBackgroundMusic(false);
 	}
 	else
 	{
-		SimpleAudioEngine::sharedEngine()->stopBackgroundMusic(false);
+		SimpleAudioEngine::sharedEngine()->playBackgroundMusic("nyan.mp3", true);
 	}
 }

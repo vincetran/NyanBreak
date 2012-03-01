@@ -50,8 +50,6 @@ bool TitleLayer::init()
     menu->setPosition(ccp(windowSize.width / 2, title->getPosition().y - 1.5*title->getContentSize().height));
 
     this->addChild(menu, 2);
-
-    SimpleAudioEngine::sharedEngine()->playBackgroundMusic("nyan.mp3", true);
         
 	return true;
 }
