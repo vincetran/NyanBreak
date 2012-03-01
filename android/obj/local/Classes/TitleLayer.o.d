@@ -1,10 +1,12 @@
-/cygdrive/c/cocos2d-x/NyanBreak/android/obj/local/armeabi/objs-debug/game/../../../Classes/AppDelegate.o: \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../Classes/AppDelegate.cpp \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../Classes/AppDelegate.h \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/cocos2dx/include/CCApplication.h \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/cocos2dx/platform/CCApplication_platform.h \
+/cygdrive/c/cocos2d-x/NyanBreak/android/obj/local/armeabi/objs-debug/game/../../../Classes/TitleLayer.o: \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../Classes/TitleLayer.cpp \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../Classes/TitleLayer.h \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/cocos2dx/include/cocos2d.h \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/cocos2dx/include/ccConfig.h \
  /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/cocos2dx/platform/CCPlatformConfig.h \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/cocos2dx/platform/android/CCApplication_android.h \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/cocos2dx/include/CCAction.h \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/cocos2dx/include/ccTypes.h \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/cocos2dx/include/CCGeometry.h \
  /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/cocos2dx/platform/CCCommon.h \
  /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/cocos2dx/platform/CCPlatformMacros.h \
  /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/cocos2dx/include/ccConfig.h \
@@ -26,11 +28,6 @@
  /cygdrive/c/android/android-ndk-r6/platforms/android-8/arch-arm/usr/include/sys/cdefs_elf.h \
  /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stl/_epilog.h \
  /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stl/_config_compat_post.h \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/cocos2dx/include/cocos2d.h \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/cocos2dx/include/ccConfig.h \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/cocos2dx/include/CCAction.h \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/cocos2dx/include/ccTypes.h \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/cocos2dx/include/CCGeometry.h \
  /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/cocos2dx/include/CCGL.h \
  /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/cocos2dx/platform/CCGL.h \
  /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/cocos2dx/include/CCEGLView.h \
@@ -268,13 +265,15 @@
  /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/cocos2dx/include/CCIMEDelegate.h \
  /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/cocos2dx/include/CCPointExtension.h \
  /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/cocos2dx/include/CCApplication.h \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/cocos2dx/platform/CCApplication_platform.h \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/cocos2dx/platform/android/CCApplication_android.h \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/cocos2dx/include/CCApplication.h \
  /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/cocos2dx/platform/CCFileUtils.h \
  /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/cocos2dx/include/CCMutableDictionary.h \
  /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/cocos2dx/include/CCAccelerometer.h \
  /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/cocos2dx/platform/CCAccelerometer_platform.h \
  /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/cocos2dx/platform/android/CCAccelerometer_android.h \
  /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/cocos2dx/include/CCAccelerometerDelegate.h \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../Classes/TitleLayer.h \
  /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../Classes/HelloWorldScene.h \
  /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/Box2D/Box2D.h \
  /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/Box2D/Common/b2Settings.h \
@@ -330,17 +329,22 @@
  /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../Classes/MyContactListener.h \
  /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../Classes/GameOverScene.h \
  /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/CocosDenshion/include/SimpleAudioEngine.h \
- /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/CocosDenshion/include/Export.h
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/CocosDenshion/include/Export.h \
+ /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../Classes/Options.h
 
-/cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../Classes/AppDelegate.h:
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../Classes/TitleLayer.h:
 
-/cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/cocos2dx/include/CCApplication.h:
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/cocos2dx/include/cocos2d.h:
 
-/cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/cocos2dx/platform/CCApplication_platform.h:
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/cocos2dx/include/ccConfig.h:
 
 /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/cocos2dx/platform/CCPlatformConfig.h:
 
-/cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/cocos2dx/platform/android/CCApplication_android.h:
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/cocos2dx/include/CCAction.h:
+
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/cocos2dx/include/ccTypes.h:
+
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/cocos2dx/include/CCGeometry.h:
 
 /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/cocos2dx/platform/CCCommon.h:
 
@@ -383,16 +387,6 @@
 /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stl/_epilog.h:
 
 /cygdrive/c/android/android-ndk-r6/sources/cxx-stl/stlport/stlport/stl/_config_compat_post.h:
-
-/cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/cocos2dx/include/cocos2d.h:
-
-/cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/cocos2dx/include/ccConfig.h:
-
-/cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/cocos2dx/include/CCAction.h:
-
-/cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/cocos2dx/include/ccTypes.h:
-
-/cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/cocos2dx/include/CCGeometry.h:
 
 /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/cocos2dx/include/CCGL.h:
 
@@ -868,6 +862,12 @@
 
 /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/cocos2dx/include/CCApplication.h:
 
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/cocos2dx/platform/CCApplication_platform.h:
+
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/cocos2dx/platform/android/CCApplication_android.h:
+
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/cocos2dx/include/CCApplication.h:
+
 /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/cocos2dx/platform/CCFileUtils.h:
 
 /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/cocos2dx/include/CCMutableDictionary.h:
@@ -879,8 +879,6 @@
 /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/cocos2dx/platform/android/CCAccelerometer_android.h:
 
 /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/cocos2dx/include/CCAccelerometerDelegate.h:
-
-/cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../Classes/TitleLayer.h:
 
 /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../Classes/HelloWorldScene.h:
 
@@ -993,3 +991,5 @@
 /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/CocosDenshion/include/SimpleAudioEngine.h:
 
 /cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../libs/CocosDenshion/include/Export.h:
+
+/cygdrive/c/cocos2d-x/NyanBreak/android/jni/helloworld/../../../Classes/Options.h:

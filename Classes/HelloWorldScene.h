@@ -37,10 +37,7 @@ private:
     b2Body *_paddleBody;
     b2Fixture *_paddleFixture;
     b2MouseJoint *_mouseJoint;
-
-
-    
     MyContactListener *_contactListener;
 };
 
-#endif // __HELLO_WORLD_H__
+#endif 

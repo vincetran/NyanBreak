@@ -126,7 +126,7 @@ HelloWorld::HelloWorld()
     b2FixtureDef paddleShapeDef;
     paddleShapeDef.shape = &paddleShape;
     paddleShapeDef.density = 20.0f;
-    paddleShapeDef.friction = 0.5f;
+    paddleShapeDef.friction = 0.8f;
     paddleShapeDef.restitution = 0.f;
     _paddleFixture = _paddleBody->CreateFixture(&paddleShapeDef);
     
@@ -193,13 +193,11 @@ HelloWorld::HelloWorld()
         } 
     }
 
-    this->_label = CCLabelTTF::labelWithString("00000", "Arial", 30);
+    this->_label = CCLabelTTF::labelWithString("00000", "slkscr.ttf", 30);
     this->_label->retain();
     this->getLabel()->setColor(ccc3(255,255,255));
     this->getLabel()->setPosition(ccp(50, winSize.height-20));
     this->addChild(_label);
-    
-    SimpleAudioEngine::sharedEngine()->playBackgroundMusic("nyan.mp3", true);
     
     this->schedule(schedule_selector(HelloWorld::tick));
     this->schedule(schedule_selector(HelloWorld::gameLogic), 0.5);
@@ -271,7 +269,7 @@ void HelloWorld::tick(ccTime dt)
         if ((contact.fixtureA == _bottomFixture && contact.fixtureB == _ballFixture) ||
             (contact.fixtureA == _ballFixture && contact.fixtureB == _bottomFixture)) {
             GameOverScene *gameOverScene = GameOverScene::node();
-            gameOverScene->getLayer()->getLabel()->setString("You Lose! :[");
+            gameOverScene->getLayer()->getLabel()->setString("You Lose!");
             CCDirector::sharedDirector()->replaceScene(gameOverScene);
         } 
         

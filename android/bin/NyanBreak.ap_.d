@@ -22,6 +22,7 @@ C:\cocos2d-x\nyanbreak\android\assets\paddle.png \
 C:\cocos2d-x\nyanbreak\android\assets\purple_brick.png \
 C:\cocos2d-x\nyanbreak\android\assets\red_brick.png \
 C:\cocos2d-x\nyanbreak\android\assets\rock.PNG \
+C:\cocos2d-x\nyanbreak\android\assets\slkscr.ttf \
 C:\cocos2d-x\nyanbreak\android\assets\star.png \
 C:\cocos2d-x\nyanbreak\android\assets\yellow_brick.png \
 C:\cocos2d-x\nyanbreak\android\AndroidManifest.xml \

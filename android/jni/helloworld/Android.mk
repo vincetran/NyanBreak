@@ -6,7 +6,9 @@ LOCAL_SRC_FILES := main.cpp \
 ../../../Classes/AppDelegate.cpp \
 ../../../Classes/MyContactListener.cpp \
 ../../../Classes/GameOverScene.cpp \
-../../../Classes/HelloWorldScene.cpp
+../../../Classes/HelloWorldScene.cpp \
+../../../Classes/TitleLayer.cpp \
+../../../Classes/Options.cpp
 
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../../libs/cocos2dx \
                     $(LOCAL_PATH)/../../../libs/cocos2dx/platform \

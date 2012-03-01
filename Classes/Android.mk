@@ -3,7 +3,8 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := game_logic
 
 LOCAL_SRC_FILES := AppDelegate.cpp \
-                   HelloWorldScene.cpp
+                   HelloWorldScene.cpp \
+                   TitleLayer.cpp
 
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../cocos2dx \
                     $(LOCAL_PATH)/../../cocos2dx/platform \
